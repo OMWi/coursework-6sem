@@ -37,7 +37,7 @@ def banner(s):
     return s.recv(1024)
 
 # target = input("Enter Target IP address, localhost or domain name eg www.eg.com: ")
-target = "127.0.0.1"
+target = "192.168.100.4"
 
 #scan for first 5051
 # start = time.time()

@@ -26,6 +26,7 @@ class portscan():
             converted_ip = self.check_ip()
             sock = socket.socket()
             sock.settimeout(0.5)
+            print(f"port {port}")
             sock.connect((converted_ip, port))
             self.open_ports.append(port)
             try:
